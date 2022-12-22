@@ -1,9 +1,9 @@
 const app = require('express')();
 
 app.get('/', (req, res ) => 
-    res.json({ message: 'Docker is easy 🐳' }) 
+    res.json({ message: 'Learning Docker is easy 🐳' }) 
 );
 
 const port = process.env.PORT || 8080;
 
-app.listen(port, () => console.log(`app listening on http://localhost:${port}`) );
+app.listen(port, () => console.log(`my app is listening on http://localhost:${port}`) );
